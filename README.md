@@ -31,72 +31,116 @@ This data is provided by CodeX and used according to the rules provided on the C
 ## II. Data
 This data has been provided by the AtliQ Mart and used according to the rules provided on the Codebasics Resume Project Challenge page for exploratory analysis.
 - Data is provided in 3 CSV files:
-1. [dim_campaigns](Resources/dim_repondents.csv)
-2. [dim_products](Resources/dim_cities.csv)
-3. [dim_stores](Resources/fact_survey_responses.csv)
-4. [fact_events]()
+1. [dim_campaigns](Resources/dim_campaigns.csv)
+2. [dim_products](Resources/dim_products.csv)
+3. [dim_stores](Resources/dim_stores.csv)
+4. [fact_events](Resources/fact_events.csv)
 
-Details here: [Meta_data Description](Resources/Metadata.txt)
+Details here: [Meta_data Description](Resources/meta_data.txt)
 
 - Other:
-1. [Ad-hoc Requests](Resources/Survey_Questions_and_Response_Options.pdf)
-2. [Problem Statement](Resources/Primary_Secondary_Insights.pdf)
-3. [Recommended Insights]()
+1. [Ad-hoc Requests](Resources/ad-hoc-requests.pdf)
+2. [Problem Statement](Resources/problem_statement.pdf)
+3. [Recommended Insights](Resources/Recommended Insights.pdf)
+4. [SQL Queries](Resources/SQLQuery.sql)
+5. [DB SQL SERVER](Resources/retail_events_db_sql_server.sql)
 
 ## III. Data Model
 ![Data Model](https://github.com/user-attachments/assets/0b54fac2-c6df-4ead-a8fc-c9cf36b792b6)
 
 ## IV. Results
-### 1. Dashboard
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/5ffacc05-00c5-4be6-aeca-3f7e019f0ebd)
+### 1. Stores Performance
+#### Overview:
+![image](https://github.com/user-attachments/assets/be83d913-8a42-40d3-9330-4917d1fb8cbf)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/6fb31a60-403f-42c9-a2c0-6c901edc547a)
+#### Number of Store by City:
+![image](https://github.com/user-attachments/assets/30b18719-2840-4ebd-a4d8-8928993cc140)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/9f79a3c4-a8bd-429c-a2bb-89810cd25fbe)
+#### Total Revenue Before and After Promotion by City:
+![image](https://github.com/user-attachments/assets/29a66330-584e-4922-b39f-e04f9d8a7a1c)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/cf499689-a184-4ec4-a66a-b6134c4a9596)
+#### Total Sales Volume Before and After Promotion by City:
+![image](https://github.com/user-attachments/assets/c95830d3-1520-4750-a59a-4631469be24c)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/6c11880e-6d9c-4da0-81f5-f80d3785420c)
+#### Top 10 Incremental Revenue by Store:
+![image](https://github.com/user-attachments/assets/833744b0-7a60-4351-85a6-865d2d9fc162)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/02ecad65-9efb-4a11-83bc-7849ebad5239)
+#### Bottom 10 Incremental Revenue by Store:
+![image](https://github.com/user-attachments/assets/7b9cf0b3-e11d-4a38-968d-8875c68a59a0)
 
-### 2. Insights and Key Findings
-#### 2.1. Demographic Insights
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/212eda13-65ba-418d-a15a-e59ea27fa4f4)
+#### Top 10 Incremental Sold Units by Store:
+![image](https://github.com/user-attachments/assets/f62fbc74-35f2-443c-8545-db6afbaf4c32)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/5c77dea8-886b-43c9-a794-01e1618d0ed0)
+#### Bottom 10 Incremental Sold Units by Store:
+![image](https://github.com/user-attachments/assets/ebb31291-ff51-4882-8f85-8c311fb603a6)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/d1e88a38-0f81-4a8a-bca4-b236f621f0f4)
 
-#### 2.2. Consumer Preference
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/fcc41cd3-a156-42bf-b0bd-e622c2e4b08d)
+### 2. Promotion Types
+#### Overview:
+![image](https://github.com/user-attachments/assets/379439b8-0da6-47b4-85a5-a2208af72f27)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/0c177e70-384a-4242-b849-7ec27a2c68cf)
+#### Incremental Sold Units (and Percentage) by Promotion Types:
+![image](https://github.com/user-attachments/assets/429aaf75-6bdc-454d-98fd-5b93fccb5aa7)
 
-#### 2.3. Competition Analysis
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/1bf24615-a89f-4c17-9658-17c7c30db607)
+#### Incremental Revenue (and Percentage) by Promotion Types:
+ ![image](https://github.com/user-attachments/assets/3853f7bd-37d2-4de3-9bde-5eb881f142a5)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/05d4a437-7769-4682-88bf-7305b9fda69c)
+#### Incremental Sold Units (and Percentage) by Promotion Types and Categories:
+![image](https://github.com/user-attachments/assets/5fcccae1-0408-456b-91ff-46e89ddbf80c)
 
-#### 2.4. Marketing Channels and Brand Awareness
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/a646d52d-65c5-4fba-bf90-0b166a0e8a12)
+#### Incremental Revenue (and Percentage) by Promotion Types and Categories:
+![image](https://github.com/user-attachments/assets/e1d0e4b6-8f0a-45cd-bacb-ca87d752ee67)
 
-#### 2.5. Brand Penetration
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/3da8d8de-efd5-43e8-84c7-5e560ef02324)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/9a03fb7f-30b5-4ed2-beb1-0341a20415ad)
+### 3. Products and Categories
+#### Overview:
+![image](https://github.com/user-attachments/assets/9172c66b-d4e6-4c5b-9739-cb785464f003)
 
-#### 2.6. Purchase Behavior
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/e955d116-2404-4c70-b265-4f512ec8e11a)
+#### Incremental Sold Units by Categories:
+![image](https://github.com/user-attachments/assets/f8ff7ce9-840c-4c36-8b87-fef4f006c78d)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/69a5ee46-37f7-4c1c-9113-4eda227d92a2)
+#### Incremental Revenue by Categories:
+![image](https://github.com/user-attachments/assets/759ead54-6560-4c4f-877e-0f25446269be)
 
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/a1a85299-4ac2-4595-ab06-3c4e49190c2c)
+#### Incremental Sold Units (and Percentage) by Categories and Promotion Types:
+![image](https://github.com/user-attachments/assets/bab26dd5-3388-4321-9529-4df55bcb4471)
 
-#### 2.7. Product Development
-![image](https://github.com/WalterEdwardd/CodeX_Beverage_Brand_Marketing_Analysis_Power_BI/assets/128374617/8e86f1c2-3444-459b-aff2-78d2928451bd)
+#### Incremental Revenue (and Percentage) by Categories and Promotion Types:
+![image](https://github.com/user-attachments/assets/ad8f099f-8957-4194-bab3-e20b176547ed)
 
-### 3. Recommendations for AtliQ Mart
+#### Top Products by IR:
+##### Top 5 Incremental Revenue by Products:
+![image](https://github.com/user-attachments/assets/e5f06322-6225-4d72-92e1-1a4449b2876f)
+
+##### Top 5 Incremental Revenue Percentage by Products:
+![image](https://github.com/user-attachments/assets/39441b4d-f9d9-4bb5-9e28-1b2f7a762e3f)
+
+##### Bottom 5 Incremental Revenue by Products:
+![image](https://github.com/user-attachments/assets/0f0c2aa7-9870-470e-9faa-cebb144108bb)
+
+##### Bottom 5 Incremental Revenue Percentage by Products:
+![image](https://github.com/user-attachments/assets/838bc1db-563e-49e0-b901-2ed2209fb4cf)
+
+#### Top Products by ISU:
+##### Top 5 Incremental Sold Units by Products:
+![image](https://github.com/user-attachments/assets/ad7c0b1b-68e1-4cf4-847b-05a3a08db2ae)
+
+##### Top 5 Incremental Sold Units Percentage by Products:
+![image](https://github.com/user-attachments/assets/efc5e503-99c9-4e0d-b485-c18a3aec91de)
+
+##### Bottom 5 Incremental Sold Units by Products:
+![image](https://github.com/user-attachments/assets/f659c0f4-1240-4e1c-9005-e7280b76512e)
+
+##### Bottom 5 Incremental Sold Units Percentage by Products:
+![image](https://github.com/user-attachments/assets/0623d36d-1cef-4dee-bba2-857d9ddefc2b)
+
+
+### 4. Summary and Recommendations
+#### 4.1. Summary
+![image](https://github.com/user-attachments/assets/b475fbd5-2566-4c85-bf9f-7c9ff6c4c3ef)
+
+
+#### 4.2. Recommendations for AtliQ Mart
 ![image](https://github.com/user-attachments/assets/872d8f7f-e4fd-45c1-9415-5a86f0d2672a)
 
 
