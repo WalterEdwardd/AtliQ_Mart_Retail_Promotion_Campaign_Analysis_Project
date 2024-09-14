@@ -41,7 +41,7 @@ Details here: [Meta_data Description](Resources/meta_data.txt)
 - Other:
 1. [Ad-hoc Requests](Resources/ad-hoc-requests.pdf)
 2. [Problem Statement](Resources/problem_statement.pdf)
-3. [Recommended Insights](Resources/Recommended Insights.pdf)
+3. [Recommended Insights](Resources/Recommended_Insights.pdf)
 4. [SQL Queries](Resources/SQLQuery.sql)
 5. [DB SQL SERVER](Resources/retail_events_db_sql_server.sql)
 
