@@ -1,4 +1,4 @@
-# AtliQ_Mart_Retail_Promotion_Analysis_Excel
+# AtliQ_Mart_Retail_Promotion_Campaign_Analysis_Project
 A project aimed at providing tangible insights to Sales Director, helping them understand which promotions are working and which are not so they can make informed decisions for the next promotional period.
 
 Tools used: Excel, PowerPoint, Word
